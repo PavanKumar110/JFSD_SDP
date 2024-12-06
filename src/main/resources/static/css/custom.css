@@ -1,0 +1,143 @@
+/* General Body Styling */
+body {
+    background-color: #FFF;
+    background-attachment: scroll;
+    background-image: url(../img/layout/background.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: Lato, sans-serif;
+    line-height: 1.5;
+}
+
+/* Heading Styles */
+h2, h3, h4, h5, h6 {
+    margin: 5px 0 0;
+}
+
+h2 {
+    color: #9A6735; /* Updated to match the new color scheme */
+    text-align: left;
+    font-weight: bold;
+}
+
+h3.title {
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 5px 0;
+    background: #C1E899; /* Updated background color */
+    color: #9A6735; /* Updated text color */
+    text-transform: uppercase;
+    text-indent: 10px;
+}
+
+/* Subprograms Styling */
+.subprograms .title {
+    background: #9A6735; /* Updated background color */
+    color: #FFF;
+    font-size: 1.4em;
+}
+
+.subprograms-wrapper {
+    background: linear-gradient(#C1E899, #9A6735); /* Updated gradient colors */
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 15px;
+}
+
+/* Button Styles */
+.button {
+    width: auto;
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    padding: 9px 18px;
+    background-color: #9A6735; /* Updated button background */
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #C1E899; /* Lighter hover color */
+    color: #9A6735; /* Updated text hover color */
+}
+
+/* Link Styling */
+a {
+    color: #9A6735; /* Updated link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C1E899; /* Updated hover color */
+}
+
+/* Image Styling */
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+img.left {
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+.program-country-flags img.flag {
+    max-width: 70px;
+    height: auto;
+}
+
+/* Paragraph Styling */
+p {
+    margin: 5px 0 20px;
+    color: #555;
+}
+
+/* Content Wrapper */
+#content-wrapper {
+    overflow: auto;
+    max-width: 1070px;
+    min-height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #C1E899; /* Updated background color */
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 1340px) {
+    #content-wrapper {
+        max-width: 1070px;
+    }
+
+    .button, h1.title, h3.title {
+        text-align: center;
+    }
+
+    .subprograms img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #content-wrapper {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    #content-wrapper {
+        max-width: 100%;
+    }
+}
+
+/* Right Float Styling */
+.right {
+    float: right;
+    margin: 10px;
+}

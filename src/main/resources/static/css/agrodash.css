@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    background-color: #1b3a4b;
+    padding-top: 60px;
+    margin-top: -40px;
+}
+
+.sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
+
+.sidebar i {
+    margin-right: 20px;
+}
+
+/* Content Area */
+.content {
+    margin-left: 300px; /* Matches the sidebar width */
+    padding: 20px;
+}
+
+h2 {
+    color: #343a40;
+}
+
+/* Form Styling */
+form {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-left: 20px;
+    background-color: #f9f9f9; /* Added background color for better visibility */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media(max-width: 768px) {
+    .sidebar {
+        width: 250px;
+    }
+
+    .content {
+        margin-left: 250px;
+        padding: 15px;
+    }
+
+    form {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 480px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .content {
+        margin-left: 200px;
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
