@@ -199,7 +199,7 @@
                             </div>
                             <div class="ps-3">
                                 <h5 class="text-white">Our Office</h5>
-                                <span class="text-white">Pune,Maharashtra</span>
+                                <span class="text-white">KLUNIVERSITY, VIJAYAWADA</span>
                             </div>
                         </div>
                         <div class="d-flex mb-4">
@@ -208,7 +208,7 @@
                             </div>
                             <div class="ps-3">
                                 <h5 class="text-white">Email Us</h5>
-                                <span class="text-white">gauravpatilgr13@gmail.com</span>
+                                <span class="text-white">edarasaiteja1001@gmail.com</span>
                             </div>
                         </div>
                         <div class="d-flex">
@@ -217,7 +217,7 @@
                             </div>
                             <div class="ps-3">
                                 <h5 class="text-white">Call Us</h5>
-                                <span class="text-white">+91 9834583904</span>
+                                <span class="text-white">+91 7416409646</span>
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-white me-2"></i>
-                                <p class="text-white mb-0">edarasaiteja1001@gmail.com</p>
+                                <p class="text-white mb-0">SDPTEAM-3@gmail.com</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-white me-2"></i>

@@ -82,7 +82,7 @@ public class agroController {
 	{
 		String f=filename.getOriginalFilename();
 		
-		String path=("C:\\Users\\gaura\\eclipse-workspace\\CravitaProject_HomeSteader\\src\\main\\resources\\static\\certificate");
+		String path=("C:\\Users\\DELL\\eclipse-workspace\\VEGEFOOD MASTER\\src\\main\\resources\\static\\certificate");
 		
 		BufferedOutputStream b= new BufferedOutputStream(new FileOutputStream(path+"/"+f));
 		
@@ -170,6 +170,10 @@ public class agroController {
 			
 	    	
 	    }
+		
+		
+		
+
 	
 	//Mapping for Logout
 	@RequestMapping("/logoutagro")
@@ -217,7 +221,7 @@ public class agroController {
 	{
 		String f1=filename1.getOriginalFilename();
 		
-		String path1="C:\\Users\\gaura\\eclipse-workspace\\CravitaProject_HomeSteader\\src\\main\\resources\\static\\product";
+		String path1="C:\\Users\\DELL\\eclipse-workspace\\VEGEFOOD MASTER\\src\\main\\resources\\static\\product";
 		
 		BufferedOutputStream b1= new BufferedOutputStream( new FileOutputStream(path1+"/"+f1));
 		
@@ -302,7 +306,7 @@ public class agroController {
 	{
 		String f1=filename1.getOriginalFilename();
 		
-		String path1="C:\\Users\\gaura\\eclipse-workspace\\CravitaProject_HomeSteader\\src\\main\\resources\\static\\product";
+		String path1="C:\\Users\\DELL\\eclipse-workspace\\VEGEFOOD MASTER\\src\\main\\resources\\static\\product";
 		
 		BufferedOutputStream b1= new BufferedOutputStream( new FileOutputStream(path1+"/"+f1));
 		
